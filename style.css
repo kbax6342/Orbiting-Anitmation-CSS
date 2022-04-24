@@ -1,0 +1,212 @@
+body{
+    background:black !important;
+    color: #fff;
+  }
+
+  .slide.active {
+    display: block;
+  }
+  /* -webkit-transform: skew(-10deg); */
+  .tree{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    left: 1%;
+    right: 0;
+    border-radius: 50%;
+  }
+  
+  .main{
+    width:95%;
+    height:95%;
+    border:2px solid #ab5024;
+    position:absolute;
+    top:0; bottom:0; left:100%; right:0;
+    margin: auto;
+    border-radius:50%; 
+  }
+
+  .main-2{
+    width:85%;
+    height:85%;
+    border:2px solid #ab5024;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+  .main-3{
+    width: 80%;
+    height: 80%;
+    border:2px solid #ab5024;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+  .main-4{
+    width: 80%;
+    height: 80%;
+    border:2px solid #ab5024;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+
+  .main-5{
+    width: 80%;
+    height: 80%;
+    border:2px solid #ab5024;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%; 
+  }
+  
+  .circle{
+    width:45px;
+    height:45px;
+    padding: 10px;
+    background: #527335;
+    z-index: 1;
+    border-radius:50%;
+    color: #fff;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6s linear infinite;
+  }
+
+  .circle-2{
+    width:45px;
+    height:45px;
+    background:#e65326;
+    padding: 10px;
+    z-index: 1;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle-2 6s linear infinite;
+  }
+
+  .circle-3{
+    width:45px;
+    height:45px;
+    padding: 10px;
+    background:#7a86c2;
+    z-index: 1;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle-3 8s linear infinite;
+  }
+
+  .circle-4{
+    width:45px;
+    height:45px;
+    padding: 10px;
+    background:#ddd5c6;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle-4 10s linear infinite;
+  }
+
+  
+  .circle-5{
+    width:45px;
+    height:45px;
+    padding: 10px;
+    background:#2e7d32;
+    border-radius:50%;
+    z-index: 1;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle-5 10s linear infinite;
+  }
+
+
+  
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle-2{
+    0%{
+      transform:rotate(0deg)
+                translate(-120px)
+                rotate(0deg);
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-120px)
+                rotate(-360deg);
+    }
+  }
+  
+  @keyframes circle-3{
+    0%{
+      transform:rotate(0deg)
+                translate(-200px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-200px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circle-4{
+    0%{
+      transform:rotate(0deg)
+                translate(-250px)
+                rotate(0deg);
+    
+    }
+    100%{      
+      transform:rotate(360deg)
+                translate(-250px)
+                rotate(-360deg);
+    }
+  }
+ 
+  @keyframes circle-5{
+    0%{
+      transform:rotate(0deg)
+                translate(-100px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-100px)
+                rotate(-360deg);
+    }
+  }
+  
+  
+  
